@@ -6575,9 +6575,9 @@ button.li-btn:hover {
 .header-main_area-3 .header-middle_area .header-middle_wrap .header-right_area > ul > li > a:hover {
   color: #b76e79 !important;
 }
-
+/* menu-bar background-color */
 .header-main_area-3 .header-bottom_area {
-  background-color: #b76e79;
+  background-color: #3c1f64;
   display: block;
 }
 
@@ -6600,19 +6600,19 @@ button.li-btn:hover {
 .header-main_area-3 .header-bottom_area.header-sticky {
   display: none;
 }
-
+/* menu-bar3 */
 @media (max-width: 991px) {
   .header-main_area-3 .header-bottom_area.header-sticky {
-    background-color: #b76e79 !important;
+    background-color: #3c1f64 !important;
     display: block;
   }
   .header-main_area-3 .header-bottom_area.header-sticky .header-right_area > ul > li > a:hover {
     color: #ffffff !important;
   }
 }
-
+/* menu-bar3 */
 .header-main_area-3 .header-bottom_area.sticky {
-  background-color: #b76e79 !important;
+  background-color: #3c1f64 !important;
   display: block;
 }
 
@@ -6640,7 +6640,7 @@ button.li-btn:hover {
 }
 
 .hiraola-footer_area .footer-top_area {
-  padding: 80px 0 80px;
+  padding: 25px 0 25px;
 }
 
 @media (max-width: 767px) {
@@ -6773,12 +6773,12 @@ button.li-btn:hover {
 /* ---Footer Bottom--- */
 .footer-bottom_area .footer-bottom_nav {
   border-top: 1px solid #e5e5e5;
-  padding: 30px 0 35px;
+  padding: 20px 0 20px;
   /*Footer Static Bottom*/
 }
 
 .footer-bottom_area .footer-bottom_nav .footer-links {
-  padding: 0 40px 20px;
+  padding: 0 20px 10px;
 }
 
 .footer-bottom_area .footer-bottom_nav .footer-links > ul {
@@ -6811,7 +6811,7 @@ button.li-btn:hover {
 }
 
 .footer-bottom_area .footer-bottom_nav .copyright {
-  padding-top: 25px;
+  padding-top: 15px;
   text-align: center;
 }
 
@@ -10532,7 +10532,8 @@ button.li-btn:hover {
 .DateCountdown .time_circles > div > span {
   color: #ffffff;
   display: block;
-  font-family: "Teko", sans-serif;
+  font-family: "Teko",
+ sans-serif;
   font-size: 60px !important;
   font-weight: 400;
   line-height: 47px !important;
