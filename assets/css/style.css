@@ -2063,8 +2063,10 @@ button, .global-overlay, .quantity .cart-plus-minus > .qtybutton, .popup_wrapper
   /* ---Single Product Gallery Outline Color--- */
 }
 
+/* slide banner button */
+
 .template-color-3 a.hiraola-btn {
-  background-color: #b76e79;
+  background-color: #380647;
 }
 
 .template-color-3 a.hiraola-btn:hover {
@@ -7339,12 +7341,12 @@ button.li-btn:hover {
 /*----------------------------------------*/
 /* ---Single Product Page--- */
 .sp-area {
-  padding: 60px 0 0;
+  padding: 20px 0 0;
 }
 
 .sp-area .sp-nav {
   background-color: #ffffff;
-  padding-top: 25px;
+  padding-top: 20px;
 }
 
 .sp-area .sp-nav .zoompro-border {
