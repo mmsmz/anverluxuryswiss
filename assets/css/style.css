@@ -6067,7 +6067,7 @@ button.li-btn:hover {
     padding: 15px 0 0;
   }
 }
-
+/** search**/
 @media (max-width: 575px) {
   .header-bottom_area .header-logo {
     text-align: center;
@@ -6342,7 +6342,7 @@ button.li-btn:hover {
 }
 
 .header-bottom_area .header-right_area > ul > li > a > i {
-  font-size: 26px;
+  font-size: 70px;
 }
 
 .header-bottom_area .header-right_area > ul > li:first-child {
