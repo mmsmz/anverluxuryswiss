@@ -613,7 +613,7 @@
 		dots: true
 	});
 	/*----------------------------------------*/
-	/*  Hiraola's Brand Product Slider
+	/*  CHANGES HAPPENS HERE!!
 /*----------------------------------------*/
 $('.hiraola-product-tab_slider-2').slick({
 	slidesToShow: 3,
@@ -645,60 +645,60 @@ $('.hiraola-product-tab_slider-2').slick({
 		{
 			breakpoint: 768,
 			settings: {
-				slidesToShow: 3
+				slidesToShow: 1
 			}
 		},
 		{
 			breakpoint: 575,
 			settings: {
-				slidesToShow: 2
+				slidesToShow: 1
 			}
 		}
 	]
 });
 	/*  Hiraola's Product Tab Slider Two
 /*----------------------------------------*/
-	$('.hiraola-product-tab_slider-2').slick({
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        slidesToShow: 5,
-        slidesToScroll: 1,
-        prevArrow: '<button class="slick-prev"><i class="ion-ios-arrow-back"></i></button>',
-        nextArrow: '<button class="slick-next"><i class="ion-ios-arrow-forward"></i></button>',
-        responsive: [{
-                breakpoint: 1501,
-                settings: {
-                    slidesToShow: 4
-                }
-            },
-            {
-                breakpoint: 1200,
-                settings: {
-                    slidesToShow: 3
-                }
-            },
-            {
-                breakpoint: 992,
-                settings: {
-                    slidesToShow: 2
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 3
-                }
-            },
-            {
-                breakpoint: 575,
-                settings: {
-                    slidesToShow: 2
-                }
-            }
-        ]
-    });
+$('.hiraola-product-tab_slider-2').slick({
+	slidesToShow: 1,
+	slidesToScroll: 1,
+	autoplay: true,
+	autoplaySpeed: 2000,
+	slidesToShow: 5,
+	slidesToScroll: 1,
+	prevArrow: '<button class="slick-prev"><i class="ion-ios-arrow-back"></i></button>',
+	nextArrow: '<button class="slick-next"><i class="ion-ios-arrow-forward"></i></button>',
+	responsive: [{
+			breakpoint: 1501,
+			settings: {
+				slidesToShow: 4
+			}
+		},
+		{
+			breakpoint: 1200,
+			settings: {
+				slidesToShow: 3
+			}
+		},
+		{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 2
+			}
+		},
+		{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 1
+			}
+		},
+		{
+			breakpoint: 575,
+			settings: {
+				slidesToShow: 1
+			}
+		}
+	]
+});
 	/*----------------------------------------*/
 	/*  Hiraola's Product Tab Slider Three
 /*----------------------------------------*/
