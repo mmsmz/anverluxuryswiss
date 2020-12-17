@@ -615,16 +615,16 @@
 	/*----------------------------------------*/
 	/*  Hiraola's Brand Product Slider
 /*----------------------------------------*/
-	$('.hiraola-brand-product_slider').slick({
-		infinite: true,
-		arrows: true,
-		dots: false,
-		speed: 2000,
-		slidesToShow: 5,
-		slidesToScroll: 1,
-		prevArrow: '<button class="slick-prev"><i class="ion-ios-arrow-back"></i></button>',
-		nextArrow: '<button class="slick-next"><i class="ion-ios-arrow-forward"></i></button>',
-		responsive: [{
+$('.hiraola-product-tab_slider-2').slick({
+	slidesToShow: 3,
+	slidesToScroll: 1,
+	autoplay: true,
+	autoplaySpeed: 2000,
+	slidesToShow: 5,
+	slidesToScroll: 1,
+	prevArrow: '<button class="slick-prev"><i class="ion-ios-arrow-back"></i></button>',
+	nextArrow: '<button class="slick-next"><i class="ion-ios-arrow-forward"></i></button>',
+	responsive: [{
 			breakpoint: 1501,
 			settings: {
 				slidesToShow: 4
@@ -645,13 +645,13 @@
 		{
 			breakpoint: 768,
 			settings: {
-				slidesToShow: 1
+				slidesToShow: 3
 			}
 		},
 		{
 			breakpoint: 575,
 			settings: {
-				slidesToShow: 1
+				slidesToShow: 2
 			}
 		}
 	]
