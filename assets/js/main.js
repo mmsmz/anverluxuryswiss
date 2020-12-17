@@ -659,46 +659,46 @@
 	/*  Hiraola's Product Tab Slider Two
 /*----------------------------------------*/
 	$('.hiraola-product-tab_slider-2').slick({
-		infinite: true,
-		arrows: true,
-		dots: false,
-		speed: 2000,
-		slidesToShow: 5,
-		slidesToScroll: 1,
-		prevArrow: '<button class="slick-prev"><i class="ion-ios-arrow-back"></i></button>',
-		nextArrow: '<button class="slick-next"><i class="ion-ios-arrow-forward"></i></button>',
-		responsive: [{
-				breakpoint: 1501,
-				settings: {
-					slidesToShow: 4
-				}
-			},
-			{
-				breakpoint: 1200,
-				settings: {
-					slidesToShow: 3
-				}
-			},
-			{
-				breakpoint: 992,
-				settings: {
-					slidesToShow: 2
-				}
-			},
-			{
-				breakpoint: 768,
-				settings: {
-					slidesToShow: 1
-				}
-			},
-			{
-				breakpoint: 575,
-				settings: {
-					slidesToShow: 1
-				}
-			}
-		]
-	});
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        prevArrow: '<button class="slick-prev"><i class="ion-ios-arrow-back"></i></button>',
+        nextArrow: '<button class="slick-next"><i class="ion-ios-arrow-forward"></i></button>',
+        responsive: [{
+                breakpoint: 1501,
+                settings: {
+                    slidesToShow: 4
+                }
+            },
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 575,
+                settings: {
+                    slidesToShow: 2
+                }
+            }
+        ]
+    });
 	/*----------------------------------------*/
 	/*  Hiraola's Product Tab Slider Three
 /*----------------------------------------*/
