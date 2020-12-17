@@ -617,10 +617,10 @@
 /*----------------------------------------*/
 	$('.hiraola-brand-product_slider').slick({
 		infinite: true,
-		arrows: false,
+		arrows: true,
 		dots: false,
 		speed: 2000,
-		slidesToShow: 4,
+		slidesToShow: 5,
 		slidesToScroll: 1,
 		prevArrow: '<button class="slick-prev"><i class="ion-ios-arrow-back"></i></button>',
 		nextArrow: '<button class="slick-next"><i class="ion-ios-arrow-forward"></i></button>',
